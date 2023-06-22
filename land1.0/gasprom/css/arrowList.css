@@ -1,0 +1,106 @@
+.arrowList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -20px -20px;
+}
+@media (max-width: 1439px) {
+  .arrowList {
+    margin: 0 -15px -29px;
+  }
+}
+@media (max-width: 1023px) {
+  .arrowList {
+    margin: 0 -10px -29px;
+  }
+}
+@media (max-width: 767px) {
+  .arrowList {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -10px 0 -90px;
+  }
+}
+.arrowList-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  max-width: 50%;
+  margin: 0;
+  padding: 0 20px;
+  list-style: none;
+}
+@media (max-width: 1439px) {
+  .arrowList-col {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 1023px) {
+  .arrowList-col {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  .arrowList-col {
+    padding: 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+@media (max-width: 767px) {
+  .arrowList-col:last-child {
+    border-bottom: none;
+  }
+}
+.arrowList-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.arrowList-item:last-child {
+  border-bottom: none;
+}
+.arrowList-link {
+  position: relative;
+  display: block;
+  padding: 20px 20px 19px 0;
+  color: #2E2E2E;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1111111111111112rem;
+  line-height: 1.5;
+  -webkit-transition: 0.25s color;
+  -o-transition: 0.25s color;
+  transition: 0.25s color;
+  width: 100%;
+}
+.arrowList-link:hover {
+  text-decoration: none;
+  color: #0065D1;
+}
+@media (max-width: 1439px) {
+  .arrowList-link {
+    padding: 20px 30px 19px 0;
+  }
+}
+@media (max-width: 767px) {
+  .arrowList-link {
+    font-size: 0.8888888888888888rem;
+    line-height: 1.5625;
+    padding: 23px 30px 21px 0;
+  }
+}
+.arrowList-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  fill: #B8BDCE;
+  margin-top: -7px;
+}

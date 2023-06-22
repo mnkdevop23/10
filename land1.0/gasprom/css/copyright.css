@@ -1,0 +1,30 @@
+.copyright {
+  padding: 28px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid rgba(124, 135, 147, 0.2);
+  margin: 17px 0 0;
+}
+@media (max-width: 767px) {
+  .copyright {
+    padding: 14px 0 40px 0;
+    border: none;
+  }
+}
+.copyright p {
+  margin: 0 0 14px 0;
+}
+.copyright-year {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 156px;
+          flex: 0 0 156px;
+  min-width: 156px;
+}
+.copyright-text {
+  line-height: 1.4;
+  color: #7C8793;
+}
+.copyright-text p:last-child {
+  margin-bottom: 0;
+}

@@ -1,0 +1,48 @@
+/* custom fixes */
+.layout.layout_main h1 {
+    font-size: 2rem;
+    line-height: 1.33333333;
+    margin: 16px 0 40px 0;
+}
+
+.layout.layout_main.layout_blog {
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
+    display: none
+}
+
+.menu.menu_fit.menu_extrafit {
+    height: 59px;
+}
+
+.howToSave-col .list-item {
+    font-size: 0.9444444444444444rem;
+    line-height: 1.17647059;
+}
+
+.layout_security .accordion-itemWrapper .list-item p {
+    margin-bottom: 16px;
+}
+/* fix visibility top btn on min content height*/
+.catalog-scrollTop:not(.catalog-scrollTop_fixed){
+    opacity: 0;
+}
+/* fix svg on broker disclosure  */
+.cntAccordion-file svg {
+    flex-shrink: 0;
+}
+/* fix for pagination on mobile */
+@media (max-width: 420px) {
+    .pagination-btn {
+        font-size: 0.6rem;
+    }
+
+    .pagination-item {
+        font-size: 0.63333333333rem;
+        padding: 0 7px 7px;
+        margin: 0 3px;
+    }
+}

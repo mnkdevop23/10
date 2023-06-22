@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/r-webfont.woff') format('woff2'),
+	url('../fonts/r-webfont.woff') format('woff'),
+	url('../fonts/r-webfont.ttf') format('truetype'),
+	url('../fonts/r-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/b-webfont.woff') format('woff2'),
+	url('../fonts/b-webfont.woff') format('woff'),
+	/*url('../fonts/b-webfont.ttf') format('truetype'),*/
+	url('../fonts/semi-b-webfont.ttf') format('truetype'),
+	url('../fonts/b-webfont.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ri-webfont.woff') format('woff2'),
+	url('../fonts/ri-webfont.woff') format('woff'),
+	url('../fonts/ri-webfont.ttf') format('truetype'),
+	url('../fonts/ri-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/bi-webfont.woff') format('woff2'),
+	url('../fonts/bi-webfont.woff') format('woff'),
+	/*url('../fonts/bi-webfont.ttf') format('truetype'),*/
+	url('../fonts/semi-bi-webfont.ttf') format('truetype'),
+	url('../fonts/bi-webfont.svg') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Spectral';
+	src: url('../fonts/spectral-regular-webfont.eot');
+	src: url('../fonts/spectral-regular-webfont.eot') format('embedded-opentype'),
+	url('../fonts/spectral-regular-webfont.woff') format('woff2'),
+	url('../fonts/spectral-regular-webfont.woff') format('woff'),
+	url('../fonts/spectral-regular-webfont.ttf') format('truetype'),
+	url('../fonts/spectral-regular-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Spectral';
+	src: url('../fonts/spectral-italic-webfont.eot');
+	src: url('../fonts/spectral-italic-webfont.eot') format('embedded-opentype'),
+	url('../fonts/spectral-italic-webfont.woff') format('woff2'),
+	url('../fonts/spectral-italic-webfont.woff') format('woff'),
+	url('../fonts/spectral-italic-webfont.ttf') format('truetype'),
+	url('../fonts/spectral-italic-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Spectral';
+	src: url('../fonts/spectral-bold-webfont.eot');
+	src: url('../fonts/spectral-bold-webfont.eot') format('embedded-opentype'),
+	url('../fonts/spectral-bold-webfont.woff') format('woff2'),
+	url('../fonts/spectral-bold-webfont.woff') format('woff'),
+	url('../fonts/spectral-bold-webfont.ttf') format('truetype'),
+	url('../fonts/spectral-bold-webfont.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Spectral';
+	src: url('../fonts/spectral-bolditalic-webfont.eot');
+	src: url('../fonts/spectral-bolditalic-webfont.eot') format('embedded-opentype'),
+	url('../fonts/spectral-bolditalic-webfont.woff') format('woff2'),
+	url('../fonts/spectral-bolditalic-webfont.woff') format('woff'),
+	url('../fonts/spectral-bolditalic-webfont.ttf') format('truetype'),
+	url('../fonts/spectral-bolditalic-webfont.svg') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+

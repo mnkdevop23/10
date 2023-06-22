@@ -1,0 +1,11 @@
+/*  region table visual editor */
+.td-head {
+    border: 1px solid #D7DEE9;
+    vertical-align: top;
+    min-height: 64px;
+    font-weight: bold;
+    padding: 6px 8px;
+    text-align: left;
+    background-color: #F4F6FA;
+}
+/*  endregion table visual editor */

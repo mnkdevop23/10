@@ -1,0 +1,170 @@
+.icon_letter {
+  width: 20px;
+  height: 20px;
+}
+.icon_point {
+  width: 14px;
+  height: 19px;
+}
+.icon_mounts {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 120px;
+  left: 50%;
+  margin-left: -50%;
+}
+@media (max-width: 1023px) {
+  .icon_mounts {
+    top: 0;
+    width: 1440px;
+    margin-left: -720px;
+  }
+}
+.icon_arrow {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  fill: #0057b6;
+}
+.icon_forbes {
+  width: 180px;
+  height: 46px;
+  fill: #262C40;
+}
+.icon_check {
+  width: 12px;
+  height: 24px;
+  fill: #02AF67;
+  stroke: #02AF67;
+}
+.icon_checkBlue {
+  width: 12px;
+  height: 24px;
+  fill: #0057b6;
+  stroke: #0057b6;
+}
+.icon_arrowLong {
+  width: 82px;
+  height: 12px;
+}
+.icon_document {
+  width: 18px;
+  height: 24px;
+}
+.icon_arrowRight {
+  width: 21px;
+  height: 20px;
+}
+.icon_arrowNext {
+  width: 24px;
+  height: 24px;
+}
+.icon_arrowNextSlide {
+  width: 8px;
+  height: 12px;
+}
+.icon_google {
+  width: 18px;
+  height: 16px;
+}
+.icon_apple {
+  width: 16px;
+  height: 16px;
+}
+.icon_huawei {
+  width: 17px;
+  height: 16px;
+}
+.icon_galaxy {
+  width: 17px;
+  height: 16px;
+}
+.icon_vk {
+  width: 30px;
+  height: 30px;
+}
+.icon_tg {
+  width: 30px;
+  height: 30px;
+}
+.icon_yt {
+  width: 30px;
+  height: 30px;
+}
+.icon_letterBlack {
+  width: 22px;
+  height: 16px;
+}
+.icon_attention {
+  width: 52px;
+  height: 52px;
+}
+@media (max-width: 1023px) {
+  .icon_attention {
+    width: 44px;
+    height: 44px;
+  }
+}
+.icon_telephone {
+  width: 24px;
+  height: 24px;
+}
+.icon_preloader {
+  width: 26px;
+  height: 26px;
+}
+.icon_success {
+  width: 72px;
+  height: 72px;
+}
+.icon_filter {
+  width: 13px;
+  height: 8px;
+}
+.icon_search {
+  width: 18px;
+  height: 18px;
+}
+.icon_searchBlack {
+  width: 24px;
+  height: 24px;
+}
+.icon_thumbsUp,
+.icon_thumbsDown {
+  fill: #B8BDCE;
+  width: 34px;
+  height: 32px;
+}
+@media (max-width: 1023px) {
+  .icon_thumbsUp,
+  .icon_thumbsDown {
+    width: 28.3px;
+    height: 27px;
+  }
+}
+.icon_thumbsDown {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+.icon_zoom {
+  width: 36px;
+  height: 37px;
+}
+.icon_marker {
+  width: 14px;
+  height: 18px;
+  margin-top: -3px;
+  margin-right: 6px;
+}
+@media (max-width: 767px) {
+  .icon_marker {
+    width: 12px;
+    height: 15px;
+    margin-top: 0;
+    margin-right: 3px;
+  }
+}
+
+/*# sourceMappingURL=icon.css.map */

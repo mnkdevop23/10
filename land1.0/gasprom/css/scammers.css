@@ -1,0 +1,235 @@
+.scammers {
+  background-color: #F4F6FA;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 64px 72px;
+  margin-bottom: 100px;
+}
+@media (max-width: 1439px) {
+  .scammers {
+    padding: 40px 32px;
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .scammers {
+    padding: 24px 16px;
+    margin-bottom: 64px;
+  }
+}
+.scammers-heading {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 16px;
+  font-size: 1.5555555555555556rem;
+  line-height: 1.14285714;
+}
+@media (max-width: 1023px) {
+  .scammers-heading {
+    font-size: 1.1111111111111112rem;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 767px) {
+  .scammers-heading {
+    text-align: left;
+  }
+}
+.scammers-description {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 57px;
+  font-size: 0.8333333333333334rem;
+  line-height: 1.33333333;
+  color: #7C8793;
+}
+@media (max-width: 1439px) {
+  .scammers-description {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 1023px) {
+  .scammers-description {
+    font-size: 0.7777777777777778rem;
+    line-height: 1.42857143;
+  }
+}
+@media (max-width: 767px) {
+  .scammers-description {
+    text-align: left;
+    font-size: 0.8333333333333334rem;
+    line-height: 1.33333333;
+    margin-bottom: 15px;
+  }
+}
+.scammers-description p {
+  margin: 0 0 10px;
+}
+.scammers-list {
+  font-size: 0.8333333333333334rem;
+  line-height: 1.33333333;
+  margin-bottom: 23px;
+}
+@media (max-width: 1023px) {
+  .scammers-list {
+    font-size: 0.7777777777777778rem;
+    line-height: 1.42857143;
+    margin-bottom: 26px;
+  }
+}
+@media (max-width: 767px) {
+  .scammers-list {
+    margin-bottom: 22px;
+  }
+}
+.scammers-row {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -37px;
+}
+@media (max-width: 1439px) {
+  .scammers-row {
+    margin: 0 -32px;
+  }
+}
+@media (max-width: 1023px) {
+  .scammers-row {
+    margin: 0 -15px;
+  }
+}
+@media (max-width: 767px) {
+  .scammers-row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.scammers-row:after {
+  content: '';
+  position: absolute;
+  display: block;
+  left: 37px;
+  right: 37px;
+  bottom: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1439px) {
+  .scammers-row:after {
+    left: 32px;
+    right: 32px;
+  }
+}
+@media (max-width: 1023px) {
+  .scammers-row:after {
+    left: 15px;
+    right: 15px;
+  }
+}
+.scammers-row:last-child:after {
+  display: none;
+}
+.scammers-row_heading {
+  color: #7C8793;
+}
+@media (max-width: 767px) {
+  .scammers-row_heading {
+    display: none;
+  }
+}
+.scammers-row_heading .scammers-col {
+  padding: 0 37px 18px;
+}
+@media (max-width: 1439px) {
+  .scammers-row_heading .scammers-col {
+    padding: 17px 32px 19px;
+  }
+}
+@media (max-width: 1023px) {
+  .scammers-row_heading .scammers-col {
+    padding: 17px 15px 19px;
+  }
+}
+.scammers-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 31.4%;
+          flex: 0 0 31.4%;
+  padding: 17px 37px 16px;
+}
+@media (max-width: 1439px) {
+  .scammers-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 34%;
+            flex: 0 0 34%;
+    padding: 17px 32px 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .scammers-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 31.7%;
+            flex: 0 0 31.7%;
+    padding: 17px 15px 14px;
+  }
+}
+@media (max-width: 767px) {
+  .scammers-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 4px 16px;
+  }
+}
+.scammers-col:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 36.4%;
+          flex: 0 0 36.4%;
+}
+@media (max-width: 1439px) {
+  .scammers-col:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 37.4%;
+            flex: 0 0 37.4%;
+  }
+}
+@media (max-width: 1023px) {
+  .scammers-col:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 36.2%;
+            flex: 0 0 36.2%;
+  }
+}
+@media (max-width: 767px) {
+  .scammers-col:first-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 16px 16px 4px;
+  }
+}
+.scammers-col:last-child {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0;
+          flex: 1 0;
+}
+@media (max-width: 767px) {
+  .scammers-col:last-child {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 4px 16px 16px;
+  }
+}
+.scammers-content {
+  font-size: 0.8333333333333334rem;
+  line-height: 1.33333333;
+}
+.scammers-content p {
+  margin: 0;
+}
+@media (max-width: 1023px) {
+  .scammers-content {
+    font-size: 0.7777777777777778rem;
+    line-height: 1.42857143;
+  }
+}

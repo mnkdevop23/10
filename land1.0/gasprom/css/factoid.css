@@ -1,0 +1,132 @@
+.factoid {
+  position: absolute;
+  right: -120px;
+  max-width: 250px;
+  font-family: 'Proxima Nova';
+  font-size: 0.7777777777777778rem;
+  line-height: 1.42857143;
+  margin-top: -171px;
+}
+@media (max-width: 1439px) {
+  .factoid {
+    right: -188px;
+    max-width: 200px;
+  }
+}
+@media (max-width: 1023px) {
+  .factoid {
+    position: relative;
+    right: 0;
+    float: right;
+    padding: 0 0 70px 40px;
+    max-width: 240px;
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  .factoid {
+    float: none;
+    padding: 37px 0;
+    max-width: 100%;
+    margin: 35px 0 36px;
+  }
+  .factoid:before,
+  .factoid:after {
+    position: absolute;
+    left: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #EEF1F3;
+  }
+  .factoid:before {
+    top: 0;
+  }
+  .factoid:after {
+    bottom: 0;
+  }
+}
+.factoid-label {
+  font-size: 2.6666666666666665rem;
+  line-height: 1.08333333;
+  font-weight: bold;
+  color: #0057b6;
+  margin-bottom: 12px;
+}
+.factoid-description {
+  padding-right: 60px;
+}
+@media (max-width: 1439px) {
+  .factoid-description {
+    padding-right: 4px;
+  }
+}
+@media (max-width: 767px) {
+  .factoid-description {
+    padding-right: 40px;
+  }
+}
+.factoid-header {
+  font-size: 1.3333333333333333rem;
+  line-height: 1.33333333;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.factoid_card {
+  margin-top: 14px;
+}
+@media (max-width: 1439px) {
+  .factoid_card {
+    margin-top: 195px;
+  }
+}
+.factoid_card .card-title {
+  font-size: 1.1111111111111112rem;
+  line-height: 1.2;
+}
+.factoid_card .card-badge {
+  font-size: 0.7777777777777778rem;
+  line-height: 1.42857143;
+}
+@media (max-width: 1439px) {
+  .factoid_card .card-badge {
+    left: 13px;
+    top: 20px;
+  }
+}
+.factoid-special {
+  color: #0057b6;
+  margin-bottom: 6px;
+}
+.factoid-icon {
+  margin-bottom: 6px;
+}
+.factoid_special {
+  margin-top: -826px;
+  font-size: 0.8888888888888888rem;
+  line-height: 1.5;
+}
+@media (max-width: 1439px) {
+  .factoid_special {
+    margin-top: -640px;
+  }
+}
+@media (max-width: 1023px) {
+  .factoid_special {
+    margin-top: -6px;
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .factoid_special {
+    margin-top: 38px;
+    padding-bottom: 38px;
+    padding-top: 31px;
+  }
+}
+.factoid_special .factoid-description {
+  padding: 0;
+}
+.factoid_appStores {
+  margin-top: 9px;
+}

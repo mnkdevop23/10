@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: relative;
+}
+
+.header__burger {
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    width: 36px;
+
+    cursor: pointer;
+}
+
+.header__burger-line {
+    width: 100%;
+    height: 6px;
+    background-color: #1E2329;
+}
+
+.menu-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 380px;
+    height: 400px !important;
+
+    background-color: #f0f0f0;
+
+    z-index: 99;
+}
+
+.menu-popup-upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.menu-popup-logo {
+    width: 220px;
+    height: auto;
+
+    margin-top: 20px;
+
+    margin-left: 20px;
+}
+
+.menu-popup-closer {
+    margin-top: 20px;
+    margin-right: 20px;
+
+    font-size: 32px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.menu-popup-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.menu-popup-links a {
+    font-size: 24px;
+}
+
+.banner-inner {
+    position: relative;
+}
+
+.banner-inner-bg {
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+
+    width: 100%;
+    height: 100%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%;
+}
+
+.contacts__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 20px;
+
+    width: 100%;
+}
+
+.contacts__row img {
+    width: 225px;
+    height: auto;
+}
+
+@media screen and (max-width:991px) {
+    .banner-title {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+
+    .contacts__row {
+        flex-direction: column;
+    }
+
+    .contacts__row img {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header__burger {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .banner-inner-bg {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .menu-popup {
+        width: 100vw;
+
+    }
+
+    .banner-inner-bg {
+        height: 50%;
+    }
+
+    .banner-title {
+        font-size: 28px !important;
+        line-height: 36px !important;
+    }
+}
+
+
+.css-vurnku a {
+    color: #1E2329;
+}
+
+.css-4fx19t {
+    color: #f0b90b !important;
+}
+
+.css-vurnku a:hover {
+    color: #C99400;
+}
+
+.policy {
+    padding-bottom: 20px;
+
+    color: #707A8A;
+}
+
+.risk {
+    padding-bottom: 20px;
+
+    color: #707A8A;
+}
+
+.leadForm-holder {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.crypto-solutions,
+.achievement-wrap,
+.competitive-fees,
+.register-trade {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.form-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.achievement-item {
+    width: 100%;
+}
+
+.achievement-list {}
+
+.firstt {
+    width: 50%;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.firstt input,
+.firstt .countryFlag {
+    margin-top: 10px;
+}
+
+.leadSubmit {
+    width: 205px;
+    height: 48px;
+
+    background-color: #FCD535;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width:900px) {
+    .firstt {
+        width: 100%;
+    }
+}

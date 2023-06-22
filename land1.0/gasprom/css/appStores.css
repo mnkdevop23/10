@@ -1,0 +1,339 @@
+.appStores {
+  position: relative;
+  font-family: 'Proxima Nova';
+  background: -o-linear-gradient(181.81deg, #001f4e 11.08%, #000000 91.7%);
+  background: linear-gradient(268.19deg, #001f4e 11.08%, #000000 91.7%);
+  height: 100%;
+  padding: 32px 24px;
+}
+@media (max-width: 767px) {
+  .appStores {
+    min-height: 336px;
+    margin-top: 4px;
+  }
+}
+.appStores-label {
+  position: relative;
+  font-size: 1.1111111111111112rem;
+  line-height: 1.2;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 24px;
+  z-index: 2;
+}
+.appStores-btn {
+  border-radius: 4px;
+  border: 1px solid rgba(124, 135, 147, 0.3);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  padding: 11px;
+  margin-bottom: 12px;
+}
+.appStores-btn:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+.appStores-btnList {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 0.6666666666666666rem;
+  line-height: 1;
+  width: 134px;
+  z-index: 2;
+}
+.appStores-btnList_noFrame {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+@media (max-width: 1023px) {
+  .appStores-btnList_noFrame {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .appStores-btnList_noFrame {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.appStores-btnLabel span {
+  font-size: 0.5555555555555556rem;
+  font-weight: normal;
+  display: block;
+  color: #B8BDCE;
+  margin-bottom: 2px;
+}
+.appStores-btnSvg {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+.appStores-btn_static {
+  width: 140px;
+}
+.appStores-bg {
+  position: absolute;
+  width: 276px;
+  height: 205px;
+  bottom: -36px;
+  right: 11%;
+}
+@media (max-width: 1439px) {
+  .appStores-bg {
+    bottom: -36px;
+    right: -16%;
+  }
+}
+@media (max-width: 767px) {
+  .appStores-bg {
+    right: -15%;
+  }
+}
+.appStores-devices {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  line-height: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+@media (max-width: 767px) {
+  .appStores-devices {
+    right: -1px;
+  }
+}
+.appStores-devicesImg {
+  position: relative;
+  max-width: 276px;
+  width: 100%;
+}
+@media (max-width: 1439px) {
+  .appStores-devicesImg {
+    max-width: 240px;
+  }
+}
+@media (max-width: 767px) {
+  .appStores-devicesImg {
+    max-width: 239px;
+  }
+}
+.appStores_noFrame {
+  background: none;
+  padding: 6px 0 0 0;
+}
+@media (max-width: 1023px) {
+  .appStores_noFrame {
+    padding: 0;
+    margin-top: -6px;
+  }
+}
+@media (max-width: 767px) {
+  .appStores_noFrame {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    min-height: 0;
+    margin-bottom: 37px;
+  }
+}
+.appStores_noFrame .appStores-btn {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 11px 16px;
+}
+@media (max-width: 1439px) {
+  .appStores_noFrame .appStores-btn {
+    width: 135px;
+    margin-left: 20px;
+    padding: 11px 15px;
+  }
+}
+@media (max-width: 1023px) {
+  .appStores_noFrame .appStores-btn {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .appStores_noFrame .appStores-btn {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(50% - 10px);
+            flex: 0 0 calc(50% - 10px);
+    max-width: calc(50% - 10px);
+    width: auto;
+    margin: 0 0 20px 0;
+    padding-right: 10px;
+  }
+}
+.appStores_noFrame .appStores-btnList {
+  width: auto;
+}
+@media (max-width: 767px) {
+  .appStores_noFrame .appStores-btnList {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+.appStores_generic {
+  margin: 22px 0;
+  height: 196px;
+  padding: 40px 60px;
+  overflow: hidden;
+}
+@media (max-width: 1439px) {
+  .appStores_generic {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 1023px) {
+  .appStores_generic {
+    margin: 17px 0;
+    padding: 40px;
+  }
+}
+.appStores_generic .appStores-btn {
+  width: 134px;
+  margin-right: 12px;
+}
+.appStores_generic .appStores-btnList {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+}
+@media (max-width: 1023px) {
+  .appStores_generic .appStores-devices {
+    right: -105px;
+  }
+}
+.appStores_generic .appStores-devicesImg {
+  max-width: 500px;
+}
+@media (max-width: 1023px) {
+  .appStores_generic .appStores-devicesImg {
+    max-width: 455px;
+  }
+}
+.appStores_generic .appStores-label {
+  max-width: 340px;
+  margin-bottom: 20px;
+}
+.appStores_article {
+  margin: 40px 0;
+  height: 196px;
+  padding: 40px 41px;
+  overflow: hidden;
+}
+@media (max-width: 1023px) {
+  .appStores_article {
+    margin: 32px 0;
+  }
+}
+@media (max-width: 767px) {
+  .appStores_article {
+    margin: 36px 0;
+    padding: 29px 24px;
+    height: 340px;
+  }
+}
+.appStores_article .appStores-btn {
+  width: 134px;
+  margin-right: 12px;
+}
+.appStores_article .appStores-btnList {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+}
+@media (max-width: 767px) {
+  .appStores_article .appStores-btnList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.appStores_article .appStores-devices {
+  right: -69px;
+  bottom: -20px;
+}
+@media (max-width: 1023px) {
+  .appStores_article .appStores-devices {
+    right: -65px;
+  }
+}
+@media (max-width: 767px) {
+  .appStores_article .appStores-devices {
+    right: -107px;
+  }
+}
+.appStores_article .appStores-devicesImg {
+  max-width: 500px;
+}
+.appStores_article .appStores-label {
+  max-width: 340px;
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .appStores_article .appStores-label {
+    margin-bottom: 25px;
+  }
+}
+.appStores_factoid {
+  position: relative;
+  min-height: 402px;
+  padding: 34px 20px;
+}
+.appStores_factoid .appStores-label {
+  margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+  .appStores_factoid .appStores-label {
+    margin-bottom: 24px;
+  }
+}
+.appStores_factoid .appStores-devicesImg {
+  max-width: 242px;
+}
+@media (max-width: 1439px) {
+  .appStores_factoid {
+    top: -20px;
+  }
+}
+@media (max-width: 767px) {
+  .appStores_factoid {
+    top: 0;
+    margin: 36px 0;
+    padding: 30px 24px;
+    min-height: 340px;
+  }
+}

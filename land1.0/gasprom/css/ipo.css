@@ -1,0 +1,144 @@
+.ipo {
+  padding-top: 100px;
+  margin-bottom: 52px;
+}
+@media (max-width: 1439px) {
+  .ipo {
+    padding-top: 80px;
+    margin-bottom: 66px;
+  }
+}
+@media (max-width: 1023px) {
+  .ipo {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .ipo {
+    padding-top: 0;
+    margin-bottom: 43px;
+  }
+}
+.ipo-heading {
+  text-align: center;
+  font-size: 1.5555555555555556rem;
+  line-height: 1.14285714;
+  margin: 0 0 49px;
+}
+@media (max-width: 1439px) {
+  .ipo-heading {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1023px) {
+  .ipo-heading {
+    font-size: 1.1111111111111112rem;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 767px) {
+  .ipo-heading {
+    text-align: left;
+    padding-right: 20%;
+    margin-bottom: 24px;
+  }
+}
+.ipo-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 32px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 1023px) {
+  .ipo-list {
+    padding: 0;
+  }
+}
+.ipo-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45.8%;
+          flex: 0 0 45.8%;
+  max-width: 45.8%;
+  font-size: 0.8333333333333334rem;
+  line-height: 1.33333333;
+  margin-bottom: 47px;
+}
+@media (max-width: 1439px) {
+  .ipo-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 48.2%;
+            flex: 0 0 48.2%;
+    max-width: 48.2%;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 1023px) {
+  .ipo-item {
+    font-size: 0.7777777777777778rem;
+    line-height: 1.42857143;
+    margin-bottom: 38px;
+  }
+}
+@media (max-width: 767px) {
+  .ipo-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 22px;
+  }
+}
+.ipo-itemLabel {
+  font-size: 1.1111111111111112rem;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+@media (max-width: 1023px) {
+  .ipo-itemLabel {
+    font-size: 0.8888888888888888rem;
+    line-height: 1.25;
+  }
+}
+.ipo-itemWrapper {
+  padding-left: 24px;
+}
+@media (max-width: 767px) {
+  .ipo-itemWrapper {
+    padding-left: 16px;
+  }
+}
+@media (max-width: 1023px) {
+  .ipo-itemContent {
+    padding-right: 20px;
+  }
+}
+.ipo-itemIcon {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 54px;
+          flex: 0 0 54px;
+  background: -o-linear-gradient(226.22deg, #829BF2 12.16%, #4265D5 89.61%);
+  background: linear-gradient(223.78deg, #829BF2 12.16%, #4265D5 89.61%);
+  display: inline-block;
+  width: 54px;
+  height: 54px;
+  border-radius: 20px;
+}
+.ipo-itemIconSVG {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+}

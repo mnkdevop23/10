@@ -1,0 +1,96 @@
+.quote {
+  position: relative;
+  font-family: 'Proxima Nova';
+  padding-left: 120px;
+  margin: 42px 0 38px 0;
+}
+@media (max-width: 1023px) {
+  .quote {
+    margin: 34px 0 31px 0;
+  }
+}
+@media (max-width: 767px) {
+  .quote {
+    padding-left: 0;
+    margin: 35px 0 37px 0;
+  }
+}
+.quote-content {
+  font-size: 1.3333333333333333rem;
+  line-height: 1.33333333;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.quote-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.quote-authorAvatar {
+  width: 60px;
+  height: 60px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 14px;
+}
+.quote-authorAvatar img {
+  display: none;
+}
+.quote-authorContent {
+  font-size: 0.7777777777777778rem;
+  line-height: 1.42857143;
+  padding-top: 8px;
+}
+.quote-authorContent_withoutAvatar {
+  padding-top: 0;
+}
+.quote-authorDesc {
+  color: #7C8793;
+}
+.quote-authorName {
+  margin-bottom: 4px;
+}
+.quote-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 56px;
+}
+@media (max-width: 767px) {
+  .quote-svg {
+    display: none;
+  }
+}
+.quote_dense {
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .quote_dense {
+    width: 100%;
+    padding-left: 0;
+    margin: 16px 0 31px 0;
+  }
+  .quote_dense .quote-author {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .quote_dense .quote-authorAvatar {
+    margin-right: 0;
+  }
+  .quote_dense .quote-authorName {
+    margin-bottom: 5px;
+  }
+}

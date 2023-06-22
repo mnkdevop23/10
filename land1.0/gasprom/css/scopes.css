@@ -1,0 +1,45 @@
+.scopes {
+  margin-bottom: 103px;
+}
+@media (max-width: 1439px) {
+  .scopes {
+    margin-bottom: 83px;
+  }
+}
+@media (max-width: 767px) {
+  .scopes {
+    margin-bottom: 86px;
+  }
+}
+.scopes-heading {
+  text-align: center;
+  max-width: 800px;
+  margin: 34px auto 49px;
+}
+@media (max-width: 1439px) {
+  .scopes-heading {
+    margin: 34px auto 41px;
+  }
+}
+@media (max-width: 1023px) {
+  .scopes-heading {
+    font-size: 1.1111111111111112rem;
+    line-height: 1.2;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .scopes-heading {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+}
+.scopes-carousel {
+  position: relative;
+  overflow: visible;
+}
+@media (max-width: 1439px) {
+  .scopes-carousel .slide-content {
+    padding-right: 2px;
+  }
+}

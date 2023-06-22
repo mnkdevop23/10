@@ -1,0 +1,24 @@
+/* region Single Image */
+.snippet-image__img{
+    max-width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+.snippet-image__figure{
+    margin: 20px 0;
+    cursor: pointer;
+}
+.snippet-image__picture{
+    margin-bottom: 8px;
+    display: inherit;
+}
+.snippet-image__desc{
+    font-size: 13px;
+    line-height: 16px;
+    color: #7C8793;
+    max-width:fit-content;
+}
+.reveal .snippet-image__figure{
+    margin: auto;
+}
+/* endregion Single Image */

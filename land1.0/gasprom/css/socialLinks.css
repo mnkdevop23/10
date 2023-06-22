@@ -1,0 +1,169 @@
+.socialLinks {
+  font-family: 'Proxima Nova';
+}
+@media (max-width: 767px) {
+  .socialLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.socialLinks-item {
+  position: relative;
+  display: inline-block;
+  margin-left: 17px;
+}
+@media (max-width: 767px) {
+  .socialLinks-item {
+    padding: 0 48px;
+    margin: 0;
+  }
+  .socialLinks-item:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -1px;
+    bottom: 3px;
+    border-right: 1px solid #7C8793;
+    opacity: 0.3;
+  }
+}
+@media (max-width: 767px) {
+  .socialLinks-item:last-child:after {
+    display: none;
+  }
+}
+.socialLinks-itemSvg {
+  width: 24px;
+  height: 24px;
+  fill: rgba(255, 255, 255, 0.4);
+}
+.socialLinks-itemSvg_vk:hover {
+  fill: #3594fb;
+}
+.socialLinks-itemSvg_fb:hover {
+  fill: #70adef;
+}
+.socialLinks-itemSvg_tg:hover {
+  fill: #32a6e1;
+}
+.socialLinks-itemSvg_yt:hover {
+  fill: red;
+}
+.socialLinks-link {
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+}
+.socialLinks-link:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+.socialLinks-linkSvg {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+.socialLinks-yaShare {
+  margin: 12px 0;
+}
+.socialLinks-yaShare .ya-share2__item {
+  margin-left: 16px !important;
+  margin-right: 0 !important;
+}
+.socialLinks-yaShare .ya-share2__item:after {
+  display: none;
+}
+.socialLinks-yaShare .ya-share2__item_service_vkontakte .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.623 7.66c.12-.372 0-.643-.525-.643h-1.745c-.44 0-.644.237-.763.491 0 0-.898 2.17-2.152 3.576-.406.406-.593.542-.813.542-.119 0-.271-.136-.271-.508V7.644c0-.44-.136-.644-.509-.644H10.1c-.27 0-.44.203-.44.407 0 .423.627.525.694 1.711v2.576c0 .559-.101.66-.322.66-.593 0-2.033-2.185-2.897-4.676-.17-.492-.339-.678-.78-.678H4.593C4.085 7 4 7.237 4 7.491c0 .458.593 2.762 2.762 5.813 1.44 2.084 3.49 3.202 5.338 3.202 1.118 0 1.254-.254 1.254-.678v-1.575c0-.509.101-.594.457-.594.254 0 .712.136 1.746 1.136 1.186 1.186 1.39 1.728 2.05 1.728h1.745c.509 0 .746-.254.61-.745-.152-.492-.728-1.203-1.474-2.05-.407-.475-1.017-1-1.203-1.255-.254-.339-.186-.474 0-.78-.017 0 2.118-3.015 2.338-4.032' fill='%23262C40' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item_service_twitter .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 7.539a6.56 6.56 0 01-1.885.517 3.294 3.294 0 001.443-1.816 6.575 6.575 0 01-2.085.796 3.283 3.283 0 00-5.593 2.994A9.32 9.32 0 015.114 6.6a3.28 3.28 0 001.016 4.382 3.274 3.274 0 01-1.487-.41v.041a3.285 3.285 0 002.633 3.218 3.305 3.305 0 01-1.482.056 3.286 3.286 0 003.066 2.28A6.585 6.585 0 014 17.524 9.291 9.291 0 009.032 19c6.038 0 9.34-5 9.34-9.337 0-.143-.004-.285-.01-.425A6.672 6.672 0 0020 7.538z' fill='%23262C40' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item_service_facebook .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.423 20v-7.298h2.464l.369-2.845h-2.832V8.042c0-.824.23-1.385 1.417-1.385h1.515V4.111A20.255 20.255 0 0014.148 4c-2.183 0-3.678 1.326-3.678 3.76v2.097H8v2.845h2.47V20h2.953z' fill='%23262C40' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item_service_telegram .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.92 6.089L4.747 11.555c-.967.388-.962.928-.176 1.168l3.534 1.104 1.353 4.146c.164.454.083.634.56.634.368 0 .53-.168.736-.368.13-.127.903-.88 1.767-1.719l3.677 2.717c.676.373 1.165.18 1.333-.628l2.414-11.374c.247-.99-.378-1.44-1.025-1.146zM8.66 13.573l7.967-5.026c.398-.242.763-.112.463.154l-6.822 6.155-.265 2.833-1.343-4.116z' fill='%23262C40' fill-rule='evenodd'/%3E%3C/svg%3E");
+  background-position: 2px 2px;
+}
+.socialLinks-yaShare .ya-share2__item_service_vkontakte:hover .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19.623 7.66c.12-.372 0-.643-.525-.643h-1.745c-.44 0-.644.237-.763.491 0 0-.898 2.17-2.152 3.576-.406.406-.593.542-.813.542-.119 0-.271-.136-.271-.508V7.644c0-.44-.136-.644-.509-.644H10.1c-.27 0-.44.203-.44.407 0 .423.627.525.694 1.711v2.576c0 .559-.101.66-.322.66-.593 0-2.033-2.185-2.897-4.676-.17-.492-.339-.678-.78-.678H4.593C4.085 7 4 7.237 4 7.491c0 .458.593 2.762 2.762 5.813 1.44 2.084 3.49 3.202 5.338 3.202 1.118 0 1.254-.254 1.254-.678v-1.575c0-.509.101-.594.457-.594.254 0 .712.136 1.746 1.136 1.186 1.186 1.39 1.728 2.05 1.728h1.745c.509 0 .746-.254.61-.745-.152-.492-.728-1.203-1.474-2.05-.407-.475-1.017-1-1.203-1.255-.254-.339-.186-.474 0-.78-.017 0 2.118-3.015 2.338-4.032' fill='%230057b6' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item_service_twitter:hover .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 7.539a6.56 6.56 0 01-1.885.517 3.294 3.294 0 001.443-1.816 6.575 6.575 0 01-2.085.796 3.283 3.283 0 00-5.593 2.994A9.32 9.32 0 015.114 6.6a3.28 3.28 0 001.016 4.382 3.274 3.274 0 01-1.487-.41v.041a3.285 3.285 0 002.633 3.218 3.305 3.305 0 01-1.482.056 3.286 3.286 0 003.066 2.28A6.585 6.585 0 014 17.524 9.291 9.291 0 009.032 19c6.038 0 9.34-5 9.34-9.337 0-.143-.004-.285-.01-.425A6.672 6.672 0 0020 7.538z' fill='%230057b6' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item_service_facebook:hover .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M13.423 20v-7.298h2.464l.369-2.845h-2.832V8.042c0-.824.23-1.385 1.417-1.385h1.515V4.111A20.255 20.255 0 0014.148 4c-2.183 0-3.678 1.326-3.678 3.76v2.097H8v2.845h2.47V20h2.953z' fill='%230057b6' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item_service_telegram:hover .ya-share2__icon {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M18.92 6.089L4.747 11.555c-.967.388-.962.928-.176 1.168l3.534 1.104 1.353 4.146c.164.454.083.634.56.634.368 0 .53-.168.736-.368.13-.127.903-.88 1.767-1.719l3.677 2.717c.676.373 1.165.18 1.333-.628l2.414-11.374c.247-.99-.378-1.44-1.025-1.146zM8.66 13.573l7.967-5.026c.398-.242.763-.112.463.154l-6.822 6.155-.265 2.833-1.343-4.116z' fill='%230057b6' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+.socialLinks-yaShare .ya-share2__item:hover {
+  opacity: 1 !important;
+}
+.socialLinks-yaShare .ya-share2__item:hover .ya-share2__icon {
+  border-color: #0057b6;
+}
+.socialLinks-yaShare .ya-share2__icon {
+  width: 32px !important;
+  height: 32px !important;
+  border: 1px solid #B8BDCE;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.socialLinks-yaShare .ya-share2__badge {
+  background-color: transparent !important;
+}
+.socialLinks_column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0;
+}
+.socialLinks_column .socialLinks-item {
+  margin: 0 0 12px 0;
+}
+.socialLinks_article {
+  font-size: 0.7777777777777778rem;
+  line-height: 1.14285714;
+  text-align: right;
+  letter-spacing: 0;
+  padding-right: 2px;
+}
+@media (max-width: 767px) {
+  .socialLinks_article {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .socialLinks_article .socialLinks-yaShare .ya-share2__item {
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+}

@@ -1,0 +1,283 @@
+.notion {
+  margin: 80px 0;
+  padding: 80px;
+  background-color: #FFFFFF;
+  color: #2E2E2E;
+  border-radius: 16px;
+}
+@media (max-width: 1439px) {
+  .notion {
+    margin: 60px 0;
+    padding: 60px 24px;
+  }
+}
+@media (max-width: 1023px) {
+  .notion {
+    margin: 0 -32px 60px;
+    border-radius: 0;
+    padding: 60px 40px;
+  }
+}
+@media (max-width: 767px) {
+  .notion {
+    margin: 0 -16px 60px;
+    padding: 25px 20px 32px;
+  }
+}
+.notion-content {
+  font-size: 1.1111111111111112rem;
+  line-height: 1.5;
+}
+@media (max-width: 1439px) {
+  .notion-content {
+    font-size: 0.8888888888888888rem;
+    line-height: 1.75;
+  }
+}
+@media (max-width: 1023px) {
+  .notion-content {
+    padding-right: 80px;
+    font-size: 0.8888888888888888rem;
+    line-height: 1.5625;
+  }
+}
+@media (max-width: 767px) {
+  .notion-content {
+    padding-right: 7%;
+  }
+}
+.notion-content p {
+  margin: 0 0 10px;
+}
+.notion-content ul {
+  font-size: 1rem;
+  line-height: 1.55555556;
+  margin: 40px 0 12px;
+  padding: 0;
+}
+@media (max-width: 1439px) {
+  .notion-content ul {
+    font-size: 0.8888888888888888rem;
+    line-height: 1.75;
+  }
+}
+@media (max-width: 767px) {
+  .notion-content ul {
+    font-size: 0.8888888888888888rem;
+    line-height: 1.5625;
+    margin-top: 10px;
+  }
+}
+.notion-content ul li {
+  position: relative;
+  list-style: none;
+  margin-bottom: 12px;
+  padding-left: 27px;
+}
+@media (max-width: 767px) {
+  .notion-content ul li {
+    margin-bottom: 10px;
+  }
+}
+.notion-content ul li:before {
+  position: absolute;
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='10' viewBox='0 0 12 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.43111 9.49956C4.33316 9.49962 4.23621 9.47905 4.14617 9.43908C4.05612 9.39911 3.97485 9.34059 3.9073 9.26706L0.711604 5.79231C0.579204 5.6484 0.507377 5.45586 0.511922 5.25704C0.514173 5.1586 0.535106 5.06158 0.573526 4.97153C0.611946 4.88147 0.667101 4.80015 0.735841 4.73219C0.804582 4.66423 0.885562 4.61097 0.974158 4.57545C1.06275 4.53994 1.15723 4.52286 1.25219 4.52519C1.44398 4.5299 1.62611 4.6134 1.75851 4.75731L4.43111 7.66206L10.1178 1.48206C10.1834 1.41085 10.2618 1.35372 10.3487 1.31394C10.4355 1.27416 10.5291 1.2525 10.624 1.2502C10.7189 1.24791 10.8134 1.26501 10.9019 1.30055C10.9905 1.33608 11.0714 1.38935 11.1401 1.45731C11.2088 1.52527 11.2639 1.60659 11.3023 1.69663C11.3407 1.78666 11.3616 1.88365 11.3638 1.98206C11.366 2.08047 11.3495 2.17836 11.3152 2.27016C11.2809 2.36195 11.2295 2.44585 11.164 2.51706L4.95492 9.26706C4.88736 9.34059 4.80609 9.39911 4.71605 9.43908C4.626 9.47905 4.52906 9.49962 4.43111 9.49956Z' fill='%2302AF67'/%3E%3Cpath d='M4.43111 9.49956C4.33316 9.49962 4.23621 9.47905 4.14617 9.43908C4.05612 9.39911 3.97485 9.34059 3.9073 9.26706L0.711604 5.79231C0.579204 5.6484 0.507377 5.45586 0.511922 5.25704C0.514173 5.1586 0.535106 5.06158 0.573526 4.97153C0.611946 4.88147 0.667101 4.80015 0.735841 4.73219C0.804582 4.66423 0.885562 4.61097 0.974158 4.57545C1.06275 4.53994 1.15723 4.52286 1.25219 4.52519C1.44398 4.5299 1.62611 4.6134 1.75851 4.75731L4.43111 7.66206L10.1178 1.48206C10.1834 1.41085 10.2618 1.35372 10.3487 1.31394C10.4355 1.27416 10.5291 1.2525 10.624 1.2502C10.7189 1.24791 10.8134 1.26501 10.9019 1.30055C10.9905 1.33608 11.0714 1.38935 11.1401 1.45731C11.2088 1.52527 11.2639 1.60659 11.3023 1.69663C11.3407 1.78666 11.3616 1.88365 11.3638 1.98206C11.366 2.08047 11.3495 2.17836 11.3152 2.27016C11.2809 2.36195 11.2295 2.44585 11.164 2.51706L4.95492 9.26706C4.88736 9.34059 4.80609 9.39911 4.71605 9.43908C4.626 9.47905 4.52906 9.49962 4.43111 9.49956' stroke='%2302AF67'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 9px;
+  top: 9px;
+  left: 0;
+}
+@media (max-width: 1439px) {
+  .notion-content_bottom {
+    margin-bottom: 87px;
+  }
+}
+@media (max-width: 1023px) {
+  .notion-content_bottom {
+    margin-bottom: 0;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .notion-content_bottom {
+    padding-right: 0;
+  }
+}
+.notion-heading {
+  font-size: 2.2222222222222223rem;
+  line-height: 1.3;
+  margin: 55px 0 40px;
+}
+@media (max-width: 1439px) {
+  .notion-heading {
+    font-size: 1.3888888888888888rem;
+    line-height: 1.4;
+    margin: 95px 0 20px;
+  }
+}
+@media (max-width: 1023px) {
+  .notion-heading {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .notion-heading {
+    margin-bottom: 10px;
+  }
+}
+.notion-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -24px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media (max-width: 767px) {
+  .notion-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+.notion-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  padding: 0 24px;
+}
+@media (max-width: 767px) {
+  .notion-col {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.notion-col_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+@media (max-width: 1023px) {
+  .notion-col_bottom {
+    max-width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .notion-col_bottom {
+    max-width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.notion-col_grow {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 min-content;
+          flex: 1 0 min-content;
+}
+@media (max-width: 1023px) {
+  .notion-col_grow {
+    margin-right: -10px;
+  }
+}
+@media (max-width: 767px) {
+  .notion-col_grow {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 1439px) {
+  .notion-col_shifted {
+    margin-left: -110px;
+    margin-right: -22px;
+  }
+}
+@media (max-width: 1023px) {
+  .notion-col_shifted {
+    max-width: 50%;
+    margin-left: -80px;
+  }
+}
+@media (max-width: 767px) {
+  .notion-col_shifted {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+}
+.notion-picture {
+  position: relative;
+  display: block;
+  font-size: 0;
+  max-width: 100%;
+}
+.notion-picture_bottom {
+  margin-bottom: -80px;
+}
+@media (max-width: 1439px) {
+  .notion-picture_bottom {
+    margin: 0 -26px -60px;
+  }
+}
+@media (max-width: 1023px) {
+  .notion-picture_bottom {
+    margin: 0 0 -60px;
+  }
+}
+@media (max-width: 767px) {
+  .notion-picture_bottom {
+    margin: 0 0 -32px;
+    padding: 0 9%;
+  }
+}
+.notion-picture_right {
+  margin-right: -38px;
+  margin-left: 38px;
+}
+@media (max-width: 1023px) {
+  .notion-picture_right {
+    margin-top: 14px;
+    margin-right: -19px;
+    margin-left: 44px;
+  }
+}
+@media (max-width: 767px) {
+  .notion-picture_right {
+    margin: 0;
+  }
+}
+.notion-picture_truncated {
+  margin-bottom: -120px;
+}
+@media (max-width: 767px) {
+  .notion-picture_truncated {
+    margin-bottom: 0;
+    margin: 0 -34px -110px;
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+}
+.notion-img {
+  max-width: 100%;
+  height: auto;
+}

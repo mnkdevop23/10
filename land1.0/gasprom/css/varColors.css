@@ -1,0 +1,9 @@
+:root {
+    --color-blue: #0057b6;
+    --color-black: #262c40;
+    --color-white: #fff;
+    --color-grey: #3d3d3d;
+    --color-light-grey: #b8bdce;
+    --color-stroke: #eef1f3;
+    --color-stroke-light: rgba(238, 241, 243, 0.1);
+}

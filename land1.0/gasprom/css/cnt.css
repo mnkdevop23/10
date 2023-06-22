@@ -1,0 +1,32 @@
+.cnt {
+  font-size: 0.8888888888888888rem;
+  line-height: 1.5;
+  margin-bottom: 75px;
+}
+.cnt-item {
+  padding-bottom: 32px;
+  border-bottom: 2px solid #E6EAF0;
+}
+.cnt-item:last-child {
+  border: none;
+}
+.cnt-itemLink {
+  margin-top: 32px;
+}
+.cnt-heading {
+  font-weight: bold;
+  font-size: 1.2222222222222223rem;
+  line-height: 1.09090909;
+  margin: 32px 0;
+}
+.cnt-heading_small {
+  font-size: 1rem;
+  line-height: 1.33333333;
+  margin: 35px 0 17px;
+}
+.cnt-small {
+  font-size: 0.6666666666666666rem;
+  line-height: 1.33333333;
+  color: #7C8793;
+  margin: 3px 0 0;
+}

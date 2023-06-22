@@ -1,0 +1,29 @@
+.advice {
+  display: block;
+  background-color: #EEF1F3;
+  border-left: 6px solid #508BE2;
+  padding: 32px 66px;
+  margin: 41px 0 40px 0;
+}
+@media (max-width: 1023px) {
+  .advice {
+    margin: 32px 0;
+  }
+}
+@media (max-width: 767px) {
+  .advice {
+    margin: 36px 0;
+    padding: 24px 20px;
+    border-left: 10px solid #508BE2;
+  }
+}
+.advice-label {
+  font-family: 'Proxima Nova';
+  font-weight: bold;
+  font-size: 1.3333333333333333rem;
+  line-height: 1.33333333;
+  margin-bottom: 16px;
+}
+.advice-description {
+  letter-spacing: -0.0222rem;
+}
